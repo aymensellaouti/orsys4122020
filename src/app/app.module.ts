@@ -39,6 +39,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { ObservableTestComponent } from './components/observable-test/observable-test.component';
 import { HttpTestComponent } from './components/http-test/http-test.component';
 import { AddPersonneComponent } from './cv/add-personne/add-personne.component';
+import { EmbaucheComponent } from './cv/embauche/embauche.component';
 
 @NgModule({
   declarations: [
@@ -75,6 +76,7 @@ import { AddPersonneComponent } from './cv/add-personne/add-personne.component';
     ObservableTestComponent,
     HttpTestComponent,
     AddPersonneComponent,
+    EmbaucheComponent,
   ],
   imports: [
     BrowserModule,
